@@ -3,11 +3,11 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-# Load summary
+# Load extracted summary from data
 df = pd.read_csv("hr_training_alert_2024.csv")
 summary_text = df.to_string(index=False)
 
-# Email details
+# Email details of sender and recipients
 sender_email = "aishinahmed20@gmail.com"          # Replace with your Gmail
 receiver_email = "yousufali.n@gmail.com"       # Replace with recipient email
 app_password = "kudn bymk ozhu hfqh"        # Paste the 16-character Gmail App Password
@@ -24,7 +24,7 @@ Here is the list of department(s) with employee(s) details who have NOT complete
 Please check the Power BI dashboard for full employee-level insights.
 
 Regards,
-Automated Reporting Team 🤖
+Automated Reporting Team 
 """
 
 # Create email
