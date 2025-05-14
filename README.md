@@ -58,6 +58,9 @@ I used Python and Pandas to process the data in `scripts/alert_summary.py`.
 ### *This prepared dataset serves as the basis for both visualization and automation.*
 
 ### Step 3: Power BI Dashboard Creation
+
+![image](https://github.com/user-attachments/assets/0a0885f2-44b7-483e-ad8c-0dcb4bb5a6c4)
+
 A. Using Power BI, I built an interactive dashboard that allows HR managers to:
 
 - Monitor training completion status
@@ -88,12 +91,15 @@ To ensure stakeholders receive timely updates, I created scripts/automated_email
     with smtplib.SMTP('smtp.gmail.com', 587) as server:
         server.starttls()
         server.login("your_email@gmail.com", "your_app_password")
-        server.send_message(msg)
+        server.send_message(ms
     ```
 
  ### *Result: A professional summary email lands in the inbox—no manual steps required.*
 
 ### Step 5: Automation via Windows Task Scheduler
+
+See the Screenshot [here](https://github.com/aishincp/HR_Process_Reporting_Automation_Tool-Python-RPA-Concepts-/blob/main/images/Trigger_Scheduler_TaskManager.JPG)
+
 To automate the weekly reporting process without any manual effort, I created a Windows batch file (run_email_alert.bat) that runs the email script. This batch file eliminates the need to manually run the Python script each time. Instead of scheduling the Python file directly, the Task Scheduler runs this .bat file, which:
 - Activates the correct virtual environment
 - Runs the automated_email.py script with the appropriate interpreter
@@ -103,4 +109,5 @@ To automate the weekly reporting process without any manual effort, I created a 
 
 
 
-## This project reflects my interest in solving real-world problems through automation and analytics, building agents or RPA systems to automate tasks with minimal or low-code. It brings together technical skills, practical implementation, and a focus on user-centric delivery, which is a foundation I look forward to building upon in future roles.
+### Note 
+This project reflects my interest in solving real-world problems through automation and analytics, building agents or RPA systems to automate tasks with minimal or low-code. It ###brings together technical skills, practical implementation, and a focus on user-centric delivery, which is a foundation I look forward to building upon in future roles.
