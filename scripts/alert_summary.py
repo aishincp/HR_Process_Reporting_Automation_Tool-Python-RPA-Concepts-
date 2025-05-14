@@ -1,7 +1,7 @@
 
 import pandas as pd
 
-# Load cleaned dummy data
+# Cleaned data
 df = pd.read_excel("cleaned_hr_data.xlsx")
 
 # Extracting date columns to Year format
