@@ -1,4 +1,4 @@
-# HR Process Reporting Automation Tool Using Python, RPA Concepts, SMTP to send emails. 
+# HR Process Reporting Automation Tool 
 ### Automated HR reporting solution (Power BI + Python + RPA + SMTP auto-send email trigger automation)
 
 ---
