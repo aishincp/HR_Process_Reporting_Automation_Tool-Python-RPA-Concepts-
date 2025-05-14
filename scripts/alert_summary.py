@@ -1,3 +1,4 @@
+
 import pandas as pd
 
 # Load cleaned dummy data
@@ -7,7 +8,7 @@ df = pd.read_excel("cleaned_hr_data.xlsx")
 df['Join_Date'] = pd.to_datetime(df['Join_Date'])
 df['Left_Date'] = pd.to_datetime(df['Left_Date'], errors='coerce')
 
-# Null Left_Date as still working
+# To calculte tenure for employee who hasn't left
 today = pd.to_datetime('today')
 df['Effective_Exit_Date'] = df['Left_Date'].fillna(today)
 
