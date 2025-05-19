@@ -102,7 +102,9 @@ To ensure stakeholders receive timely updates, I created scripts/automated_email
 
 ### Step 5: Automation via Windows Task Scheduler
 
-See the Screenshot [here](https://github.com/aishincp/HR_Process_Reporting_Automation_Tool-Python-RPA-Concepts-/blob/main/images/Trigger_Scheduler_TaskManager.JPG)
+See the Screenshot below:
+
+![image](https://github.com/user-attachments/assets/96564446-eb73-47de-82c3-22f7a6d0e28b)
 
 To automate the weekly reporting process without any manual effort, I created a Windows batch file (run_email_alert.bat) that runs the email script [See the screenshot below].
 
@@ -118,4 +120,7 @@ This batch file eliminates the need to manually run the Python script each time.
 
 
 ### Note 
-This project reflects my interest in solving real-world problems through automation and analytics, building agents or RPA systems to automate tasks with minimal or low-code. It ###brings together technical skills, practical implementation, and a focus on user-centric delivery, which is a foundation I look forward to building upon in future roles.
+
+---
+This project reflects my interest in solving real-world problems through automation and analytics, as well as building agents or RPA systems to automate tasks with minimal or low-code. It brings my technical skills together with practical implementation and a focus on user-centric delivery, a foundation I look forward to building upon in future roles.
+---
