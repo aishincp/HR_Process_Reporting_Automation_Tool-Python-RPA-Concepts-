@@ -104,7 +104,11 @@ To ensure stakeholders receive timely updates, I created scripts/automated_email
 
 See the Screenshot [here](https://github.com/aishincp/HR_Process_Reporting_Automation_Tool-Python-RPA-Concepts-/blob/main/images/Trigger_Scheduler_TaskManager.JPG)
 
-To automate the weekly reporting process without any manual effort, I created a Windows batch file (run_email_alert.bat) that runs the email script. This batch file eliminates the need to manually run the Python script each time. Instead of scheduling the Python file directly, the Task Scheduler runs this .bat file, which:
+To automate the weekly reporting process without any manual effort, I created a Windows batch file (run_email_alert.bat) that runs the email script [See the screenshot below].
+
+![image](https://github.com/user-attachments/assets/45c6df2b-6c2e-4cbb-9d87-e0e6104c3080)
+
+This batch file eliminates the need to manually run the Python script each time. Instead of scheduling the Python file directly, the Task Scheduler runs this .bat file, which:
 - Activates the correct virtual environment
 - Runs the automated_email.py script with the appropriate interpreter
 - Ensures consistent execution, even when no user is logged in
