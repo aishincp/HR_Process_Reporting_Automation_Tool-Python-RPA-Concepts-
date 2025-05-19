@@ -7,8 +7,9 @@ This project demonstrates a practical and automated HR reporting solution that c
 
 ---
 
-![Screenshot_2025-05-15-00-33-18-582_com google android gm-edit](https://github.com/user-attachments/assets/c2394f67-0332-4d26-8f16-d9721ab81bba)
+![image](https://github.com/user-attachments/assets/baaff798-6d79-41df-8f85-3a93d0f7be59)
 
+---
 
 ## Project Overview
 
