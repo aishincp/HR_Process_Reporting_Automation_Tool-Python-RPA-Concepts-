@@ -115,12 +115,13 @@ This batch file eliminates the need to manually run the Python script each time.
 - Runs the automated_email.py script with the appropriate interpreter
 - Ensures consistent execution, even when no user is logged in
 
-### *This setup provides a lightweight but effective RPA-style automation, ensuring HR summary emails are delivered regularly (e.g., every Monday at 10 AM) without human intervention.*
+This setup provides a lightweight but effective RPA-style automation, ensuring HR summary emails are delivered regularly (e.g., every Monday at 10 AM) without human intervention.
 
-
-
-### Note 
 
 ---
-This project reflects my interest in solving real-world problems through automation and analytics, as well as building agents or RPA systems to automate tasks with minimal or low-code. It brings my technical skills together with practical implementation and a focus on user-centric delivery, a foundation I look forward to building upon in future roles.
+
+Note 
 ---
+
+#### *This project reflects my interest in solving real-world problems through automation and analytics, as well as building agents or RPA systems to automate tasks with minimal or low-code. It brings my technical skills together with practical implementation and a focus on user-centric delivery, a foundation I look forward to building upon in future roles.*
+
