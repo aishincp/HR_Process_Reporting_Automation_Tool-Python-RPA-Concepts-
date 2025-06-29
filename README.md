@@ -76,9 +76,8 @@ B. Visuals Included:
 - Pie Chart: Completed vs Not Completed training
 - Line Chart: Join year trends
 
-C. Table View: Detailed employee list with training status
+C. Table View: Detailed employee list with training status (See Above)
 
-📸 [Insert Power BI Dashboard Screenshot Here]
 
 ### *This dashboard empowers decision-makers to take action based on real-time (if using real-time data) insights.*
 
