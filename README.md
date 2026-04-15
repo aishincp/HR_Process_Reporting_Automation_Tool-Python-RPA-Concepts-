@@ -3,7 +3,7 @@
 
 ---
 
-This project demonstrates a practical and automated HR reporting solution that combines Python, Power BI, and Robotic Process Automation (RPA). It simulates a common HR use case—tracking mandatory training completion—using dummy data, smart visualizations, and automated email alerts.
+This project demonstrates a practical and automated HR reporting solution that combines Python, Power BI, and Robotic Process Automation (RPA). It simulates a common HR use case, which tracks mandatory training completion using dummy data, smart visualizations, and automated email alerts.
 
 ---
 
@@ -13,7 +13,7 @@ This project demonstrates a practical and automated HR reporting solution that c
 
 ## Project Overview
 
-In HR departments, keeping track of employee training compliance can be tedious and prone to delays (a hectic manual task). This project simplifies that by:
+In HR departments, tracking employee training compliance can be tedious and prone to delays (a time-consuming, manual task). This project simplifies that by:
 
 - Generating and analyzing HR data with Python (**Automated Analysis**)
 - Visualizing key insights in Power BI (**Reporting & Dashboarding**)
@@ -35,7 +35,7 @@ To simulate a realistic environment, I created a synthetic HR dataset including 
 - Leaves Taken  
 - Training Status  
 
-I also included cases where some employees had not completed their mandatory training—allowing us to track compliance issues like in real HR audits.
+I also included cases where some employees had not completed their mandatory training, allowing us to track compliance issues like in real HR audits.
 
 ---
 
@@ -79,7 +79,7 @@ B. Visuals Included:
 C. Table View: Detailed employee list with training status (See Above)
 
 
-### *This dashboard empowers decision-makers to take action based on real-time (if using real-time data) insights.*
+### This dashboard empowers decision-makers to take action based on real-time insights (if using real-time data).*
 
 
 ### Step 4: Email Automation via Python
